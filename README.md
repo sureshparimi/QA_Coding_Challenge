@@ -7,8 +7,8 @@
 
 <div align="center">
 
-[![Linkedin](https://linkedin.com/in/sparimi)](https://charming-pegasus-ec3f3f.netlify.app/)
-[![Portfolio](https://charming-pegasus-ec3f3f.netlify.app/)](https://charming-pegasus-ec3f3f.netlify.app/)
+[![Linkedin](https://linkedin.com/in/sparimi)]()
+[![Portfolio](https://charming-pegasus-ec3f3f.netlify.app/)]()
 </div>
 
 ---
