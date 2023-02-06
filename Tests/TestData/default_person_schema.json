@@ -1,0 +1,98 @@
+{
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "height": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "mass": {
+                    "type": "string"
+                },
+                "hair_color": {
+                    "type": "string"
+                },
+                "skin_color": {
+                    "type": "string"
+                },
+                "eye_color": {
+                    "type": "string"
+                },
+                "birth_year": {
+                    "type": "string"
+                },
+                "gender": {
+                    "type": "string"
+                },
+                "homeworld": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "films": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri",
+                        "qt-uri-protocols": [
+                            "https"
+                        ]
+                    }
+                },
+                "species": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri",
+                        "qt-uri-protocols": [
+                            "https"
+                        ]
+                    }
+                },
+                "vehicles": {
+                    "type": "array",
+                    "items": {}
+                },
+                "starships": {
+                    "type": "array",
+                    "items": {}
+                },
+                "created": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "edited": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                }
+            },
+            "required": [
+                "birth_year",
+                "created",
+                "edited",
+                "eye_color",
+                "films",
+                "gender",
+                "hair_color",
+                "height",
+                "homeworld",
+                "mass",
+                "name",
+                "skin_color",
+                "species",
+                "starships",
+                "url",
+                "vehicles"
+            ],
+            "title": "Welcome1"
+        }

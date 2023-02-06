@@ -1,0 +1,77 @@
+{
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "rotation_period": {
+                    "type": "string"
+                },
+                "orbital_period": {
+                    "type": "string"
+                },
+                "diameter": {
+                    "type": "string"
+                },
+                "climate": {
+                    "type": "string"
+                },
+                "gravity": {
+                    "type": "string"
+                },
+                "terrain": {
+                    "type": "string"
+                },
+                "surface_water": {
+                    "type": "string"
+                },
+                "population": {
+                    "type": "string"
+                },
+                "residents": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri",
+                        "qt-uri-protocols": [
+                            "https"
+                        ]
+                    }
+                },
+                "films": {
+                    "type": "array",
+                    "items": {}
+                },
+                "created": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "edited": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                }
+            },
+            "required": [
+                "climate",
+                "created",
+                "diameter",
+                "edited",
+                "films",
+                "gravity",
+                "name",
+                "orbital_period",
+                "population",
+                "residents",
+                "rotation_period",
+                "surface_water",
+                "terrain",
+                "url"
+            ],
+            "title": "Welcome6"
+        }
